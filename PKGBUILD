@@ -4,7 +4,7 @@
 
 _name=PyMuPDF
 pkgname=('python-pymupdf')
-pkgver=1.16.13
+pkgver=1.16.16
 pkgrel=1
 pkgdesc='Python bindings for MuPDF'
 arch=('x86_64')
@@ -15,7 +15,7 @@ makedepends=('python-pip')
 
 source=("https://files.pythonhosted.org/packages/cp38/${_name::1}/$_name/$_name-$pkgver-cp38-cp38-manylinux2010_x86_64.whl")
 noextract=("${_name}-${pkgver}-cp38-cp38-manylinux2010_x86_64.whl")
-sha256sums=('17d58ebb56001693360d724f7bfa351b203f75ab1fb1ec528b4af51bd3062ccb')
+sha256sums=('9c5ba5372b8c4018deb3c24434fff6865fcfdcb5057e13b5550ff49dd1127e62')
 
 package() {
   cd "${srcdir}"
